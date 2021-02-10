@@ -2,13 +2,21 @@
 
 ## Installation
 
-Download script
+Change directory `cd /opt/` abd Download script
+
 ```bash
-curl -O https://raw.githubusercontent.com/akunID/bashscript/main/prometheus-node_exporter.sh
+curl -O https://raw.githubusercontent.com/akunID/prometheus/main/node_exporter.sh
 ```
+
 ## Usage
 
 ```bash
 chmod +x prometheus-node_exporter.sh
-./prometheus-node_exporter.sh
+./node_exporter.sh
+```
+
+## Check Status
+
+```bash
+systemctl status prometheus-node_exporter.service
 ```
