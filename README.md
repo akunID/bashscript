@@ -1,4 +1,4 @@
-# Prometheus Node_Exporter
+# Prometheus/Node_Exporter
 
 ## Installation
 
