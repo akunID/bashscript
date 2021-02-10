@@ -2,7 +2,7 @@
 
 ## Installation
 
-Change directory `cd /opt/` abd Download script
+Change directory  `cd /opt/`  and Download script
 
 ```bash
 curl -O https://raw.githubusercontent.com/akunID/prometheus/main/node_exporter.sh
