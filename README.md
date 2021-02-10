@@ -1,8 +1,10 @@
-# Prometheus/Node_Exporter
+# Prometheus Node_Exporter
+Release Version `1.1.0`
 
 ## Installation
 
-Change directory  `cd /opt/`  and Download script
+Change directory `cd /opt/`
+Download script
 
 ```bash
 curl -O https://raw.githubusercontent.com/akunID/prometheus/main/node_exporter.sh
@@ -11,7 +13,7 @@ curl -O https://raw.githubusercontent.com/akunID/prometheus/main/node_exporter.s
 ## Usage
 
 ```bash
-chmod +x prometheus-node_exporter.sh
+sudo chmod +x node_exporter.sh
 ./node_exporter.sh
 ```
 
@@ -20,3 +22,6 @@ chmod +x prometheus-node_exporter.sh
 ```bash
 systemctl status prometheus-node_exporter.service
 ```
+
+## License
+[Prometheus](https://prometheus.io)
