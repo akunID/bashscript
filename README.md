@@ -19,9 +19,16 @@ sudo chmod +x node_exporter.sh
 
 ## Check Status
 
+Check Service Running
 ```bash
 systemctl status prometheus-node_exporter.service
 ```
+
+Check Port Running
+```bash
+netstat -ntlup
+```
+see port `9100`
 
 ## License
 [Prometheus](https://prometheus.io)
